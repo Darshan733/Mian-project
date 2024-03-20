@@ -55,3 +55,63 @@ nav {
     color: white;
     border-radius: 5px;
 }
+
+/* Keep the existing styles for larger screens */
+
+@media only screen and (max-width: 500px) {
+    /* Adjustments for screens under 500px */
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .div-logo {
+        padding: 10px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-nav {
+        width: 100%;
+        padding: 10px 0;
+        justify-content: space-around;
+    }
+
+    .div-btn {
+        padding: 10px 0;
+    }
+
+    .div-logo, .div-nav, .div-btn {
+        border-bottom: 1px solid lightgrey;
+    }
+}
+
+
+@media only screen and (max-width: 1069px) {
+  
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .div-logo {
+        padding: 10px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-nav {
+        width: 100%;
+        padding: 10px 0;
+        justify-content: space-around;
+    }
+
+    .div-btn {
+        padding: 10px 0;
+    }
+
+    .div-logo, .div-nav, .div-btn {
+        border-bottom: 1px solid lightgrey;
+    }
+}
